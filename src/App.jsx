@@ -1,4 +1,4 @@
-mport React from 'react';
+import React from 'react';
 import { Truck, Globe, Phone, Mail } from "lucide-react";
 
 export default function Website() {
@@ -9,14 +9,13 @@ export default function Website() {
         <nav className="space-x-6">
           <a href="#services" className="hover:text-[#4fc3f7]">Usługi</a>
           <a href="#about" className="hover:text-[#4fc3f7]">O nas</a>
-          <a href="#quote" className="hover:text-[#4fc3f7]">Wycena</a>
           <a href="#contact" className="hover:text-[#4fc3f7]">Kontakt</a>
         </nav>
       </header>
 
       <section className="text-center mb-16">
         <h2 className="text-4xl font-bold mb-4">Profesjonalny transport bez kompromisów</h2>
-        <p className="text-lg mb-6 text-gray-300">Transport krajowy i międzynarodowy • Spedycja • Logistyka</p>
+        <p className="text-lg mb-6 text-gray-300">Krajowy i międzynarodowy • Spedycja • Logistyka</p>
         <button className="bg-[#4fc3f7] text-black px-8 py-3 rounded font-bold hover:bg-cyan-400 transition">
           Poproś o wycenę
         </button>
@@ -36,8 +35,8 @@ export default function Website() {
       </section>
 
       <footer id="contact" className="text-center border-t border-gray-800 pt-10">
-        <h2 className="text-3xl font-bold mb-8 text-[#4fc3f7]">Kontakt</h2>
-        <p className="mb-2">📞 784-083-494 | ✉ biuro@th-transport.eu</p>
+        <h2 className="text-2xl font-bold mb-4 text-[#4fc3f7]">Kontakt</h2>
+        <p>📞 784-083-494 | ✉ biuro@th-transport.eu</p>
       </footer>
     </div>
   );
